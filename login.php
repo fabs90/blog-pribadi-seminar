@@ -37,8 +37,6 @@ if (isset($_POST['login'])) {
         echo $messageError;
     }
 }
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -78,20 +76,20 @@ if (isset($_POST['login'])) {
 
 </body>
 <style>
-.login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
 
-.register-form form div {
-    margin-bottom: 15px;
-}
+    .register-form form div {
+        margin-bottom: 15px;
+    }
 </style>
 
 </html>
